@@ -12,6 +12,7 @@ def main():
         print("Usage: python3 send_side.py COMX")
         return
 
+    port = sys.argv[1]
     # Open the serial port
     ser = serial.Serial(port, baud_rate)
 
